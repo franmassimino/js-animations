@@ -5,13 +5,14 @@ const entrarRight = document.getElementById('entrar-right')
 gsap.from('.overlay-title', {
     y: -20,
     duration: 1,
-    delay: .75,
+    delay: .5,
     opacity: 0,
 })
 
 gsap.from('#entrar', {
-    duration: .5,
-    delay: .8,
+    y: -5,
+    duration: .75,
+    delay: .4,
     opacity: 0
 })
 
