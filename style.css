@@ -36,7 +36,9 @@ main{
     color: white;
 }
 
-
+#entrar{
+    visibility:hidden;
+}
 
 .hero-content{
     background-color:rgb(85, 211, 123);

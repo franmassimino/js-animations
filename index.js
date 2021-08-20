@@ -10,10 +10,16 @@ gsap.from('.overlay-title', {
 })
 
 gsap.from('#entrar', {
-    y: -5,
-    duration: .75,
-    delay: .4,
-    opacity: 0
+    y: -10,
+    duration: .5,
+    opacity: 0,
+    delay: .5,
+})
+
+gsap.to('#entrar', {
+    duration: .5,
+    delay: .5,
+    autoAlpha: 1
 })
 
 entrar.addEventListener('click', (e) => {
